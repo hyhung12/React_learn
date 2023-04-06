@@ -2,7 +2,7 @@
 
 ```
 <div id = "root"></div>
-
+```
 
 Keeper App - 20
 React Prop - 30
@@ -26,3 +26,7 @@ import * as big_item from module1
 
 - Reuse components
 - html attributes <=> React properties (prop)
+
+
+- JSX - syntax extension to write HTML-like code
+- ReactJS - component-based architecture, each component renders a part of UI
