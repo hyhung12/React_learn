@@ -22,3 +22,7 @@ Export multiple items
 export {item1, item2} 
 import {item1, item2}
 import * as big_item from module1
+
+
+- Reuse components
+- html attributes <=> React properties (prop)
