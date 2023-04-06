@@ -30,3 +30,29 @@ import * as big_item from module1
 
 - JSX - syntax extension to write HTML-like code
 - ReactJS - component-based architecture, each component renders a part of UI
+
+mapping - 10
+map,filter,reduce - 20
+arrow - 10
+keeper 2 - 10
+Conditional - 19
+
+-------- 70
+
+State - 10
+Hooks - 18
+Destructing - 18
+Event handling - 10
+Forms - 14
+Class & Functional - 6
+Complex State - 20
+
+-------- 76
+
+Spread - 11
+Component Tree - 23
+Keeper 3 - 25
+
+-------- 59
+
+blah blah - 17
