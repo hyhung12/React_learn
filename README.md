@@ -58,7 +58,9 @@ import * as big_item from module1 -> not recommended
 ```
 
 - Conditional Rendering
+hooks can cause a functional component (including the top-level App component) to re-run.
 
+When a hook is used inside a functional component, React internally keeps track of the state changes and re-renders the component whenever the state changes. This can cause the component to re-run from the beginning, including the top-level App function.
 
 Conditional - 19
 State - 10
