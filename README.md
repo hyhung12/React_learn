@@ -44,8 +44,10 @@ export {item1, item2}
 import {item1, item2} from ./components/App
 import * as big_item from module1 -> not recommended
 ```
-
-- html attributes <=> React properties (prop)
+- Reat props:
++ html attributes <=> React properties (prop)
+- React DevTools:
++ To view name of props
 
 
 
