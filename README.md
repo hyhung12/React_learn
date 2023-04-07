@@ -46,20 +46,21 @@ import * as big_item from module1 -> not recommended
 ```
 - Reat props:
 + html attributes <=> React properties (prop)
+
 - React DevTools:
 + To view name of props
 
+- Mapping
+```
+{notes.map((eachNote) => (
+  <Note title12={eachNote.title} content12={eachNote.content} />
+))}
+```
+
+- Conditional Rendering
 
 
-
-mapping - 10
-map,filter,reduce - 20
-arrow - 10
-keeper 2 - 10
 Conditional - 19
-
--------- 70
-
 State - 10
 Hooks - 18
 Destructing - 18
@@ -68,7 +69,7 @@ Forms - 14
 Class & Functional - 6
 Complex State - 20
 
--------- 76
+-------- 95
 
 Spread - 11
 Component Tree - 23
