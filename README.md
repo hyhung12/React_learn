@@ -62,16 +62,14 @@ hooks can cause a functional component (including the top-level App component) t
 
 When a hook is used inside a functional component, React internally keeps track of the state changes and re-renders the component whenever the state changes. This can cause the component to re-run from the beginning, including the top-level App function.
 
-Conditional - 19
-State - 10
-Hooks - 18
+```
 Destructing - 18
 Event handling - 10
 Forms - 14
 Class & Functional - 6
 Complex State - 20
 
--------- 95
+-------- 68
 
 Spread - 11
 Component Tree - 23
@@ -80,3 +78,4 @@ Keeper 3 - 25
 -------- 59
 
 blah blah - 17
+```
