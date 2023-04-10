@@ -77,8 +77,22 @@ var dog = animals[1];
 https://www.w3schools.com/tags/ref_eventattributes.asp
 ```
 
-when function is called, it can get access to previous value
+- when function is called, it can get access to previous value
+- function can also be passed as argument (aka callback)
+```
+function sum(a, b, callback) {
+const square = function(x) {
+  return x * x;
+}
 
+function sum(a, b, callback) {
+  const result = a + b;
+  return callback(result);
+}
+
+const result = sum(2, 3, square);
+console.log(result); // Output: 25
+```
 
 Destructing - 18
 Event handling - 10
