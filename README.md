@@ -77,6 +77,9 @@ var dog = animals[1];
 https://www.w3schools.com/tags/ref_eventattributes.asp
 ```
 
+when function is called, it can get access to previous value
+
+
 Destructing - 18
 Event handling - 10
 Forms - 14
