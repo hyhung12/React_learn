@@ -126,6 +126,14 @@ function handleChange(event) {
 }      
 ```
 
+- Spread Operator
+```
+key1 = "he";
+a = {[key1]:1};
+console.log(a) // output {he:1}
+```
+
+- Set value (key:value) as key
 Spread - 11
 Component Tree - 23
 Keeper 3 - 25
