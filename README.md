@@ -93,14 +93,38 @@ function sum(a, b, callback) {
 const result = sum(2, 3, square);
 console.log(result); // Output: 25
 ```
+- React Form:
+```
+<form onSubmit={handleClick}>
+  <input
+    onChange={handleChange}
+    type="text"
+    placeholder="What's your name?"
+  />
+  <button type="submit">Submit</button>
+</form>
+```
 
-Destructing - 18
-Event handling - 10
-Forms - 14
-Class & Functional - 6
-Complex State - 20
+- Complex State (using previous state):
+```
+function handleChange(event) {
+  const { value, name } = event.target;
 
--------- 68
+  setFullName(prevValue => {
+    if (name === "fName") {
+      return {
+        fName: value,
+        lName: prevValue.lName
+      };
+    } else if (name === "lName") {
+      return {
+        fName: prevValue.fName,
+        lname: value
+      };
+    }
+  });
+}      
+```
 
 Spread - 11
 Component Tree - 23
