@@ -134,6 +134,11 @@ console.log(a) // output {he:1}
 ```
 
 - Set value (key:value) as key
+- When we have a function name + () -> calling a function rather than passing a function
+
+
+
+
 Spread - 11
 Component Tree - 23
 Keeper 3 - 25
